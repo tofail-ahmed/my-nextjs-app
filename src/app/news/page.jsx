@@ -2,7 +2,7 @@ import React from 'react'
 
 const NewsPage = () => {
   return (
-    <div>NewsPage</div>
+    <div className='cover absolute'>NewsPage</div>
   )
 }
 
