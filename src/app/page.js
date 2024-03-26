@@ -1,12 +1,13 @@
 
 import Counter from "@/component/Counter";
+// import 'daisyui/dist/full.css';
 
 
 const HomePage = () => {
   return (
-    <div className="text-4xl text-center font-bold text-red-800 mt-16">
+    <div className="">
       <h1 className="text-center">Welcome to nextJS App: Home page</h1>
-      <Counter/>
+      <Counter />
     </div>
   );
 };
