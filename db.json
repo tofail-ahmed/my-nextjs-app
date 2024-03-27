@@ -1,0 +1,74 @@
+{
+      "shoes": [
+        {
+          "id": "1",
+          "title": "Adidas Ultraboost",
+          "description": "The Adidas Ultraboost is a popular running shoe known for its comfort and responsiveness.",
+          "price": 180.0,
+          "img": "https://images.solecollector.com/complex/image/upload/c_limit,w_765/fl_lossy,q_75/v1529183785/adidas-ultraboost-parley-blue-bv3916_q7rk9r.jpg"
+        },
+        {
+          "id": "2",
+          "title": "Nike Air Max 270",
+          "description": "The Nike Air Max 270 offers a blend of comfort and style with its large Air unit and modern design.",
+          "price": 150.0,
+          "img": "https://media.trainingmask.com/wp-content/uploads/2019/01/nike-air-max-270-black-white-blue.jpg"
+        },
+        {
+          "id": "3",
+          "title": "New Balance Fresh Foam",
+          "description": "The New Balance Fresh Foam is designed for runners seeking a plush, natural ride.",
+          "price": 110.0,
+          "img": "https://www.newbalance.ca/on/demandware.static/-/Sites-master-catalog-New_Balance_Canada/default/dw7684615a/Product Images/2021X/MADE/M2010.jpg"
+        },
+        {
+          "id": "4",
+          "title": "Reebok Classic Leather",
+          "description": "The Reebok Classic Leather is a timeless sneaker known for its durability and retro style.",
+          "price": 80.0,
+          "img": "https://www.reebok.com/dw/image/v2/AAQS_PRD/on/demandware.static/-/Sites-master-catalog-Reebok-US/default/dw204a8446/product-images/2018/August/RB1901_US_1.jpg?sw=1920"
+        },
+        {
+          "id": "5",
+          "title": "Puma RS-X",
+          "description": "The Puma RS-X combines retro design elements with modern technology for a unique look and feel.",
+          "price": 120.0,
+          "img": "https://i.pinimg.com/originals/1d/c0/6d/1dc06d2b2189c8065b6103d30d942eaf.jpg"
+        },
+        {
+          "id": "6",
+          "title": "Asics Gel-Nimbus",
+          "description": "The Asics Gel-Nimbus is a high-cushioning running shoe designed for long-distance comfort.",
+          "price": 160.0,
+          "img": "https://www.asics.com/etc/designs/asics/global/images/shoe_detail/GEL-nimbus_22_LITE_show_L.jpg"
+        },
+        {
+          "id": "7",
+          "title": "Saucony Jazz Original",
+          "description": "The Saucony Jazz Original is a classic sneaker with a comfortable fit and timeless design.",
+          "price": 70.0,
+          "img": "https://www.saucony.com/dw/image/v2/AAQS_PRD/on/demandware.static/-/Sites-master-catalog-Saucony/default/dw9b4369d7/product-images/shoe/JZO_GRY.jpg?sw=1920"
+        },
+        {
+          "id": "8",
+          "title": "Vans Old Skool",
+          "description": "The Vans Old Skool is an iconic skate shoe known for its durable canvas and suede upper.",
+          "price": 65.0,
+          "img": "https://www.vans.com/dw/image/v2/AAQS_PRD/on/demandware.static/-/Sites-master-catalog-Vans/default/dw29619923/product-images/shoes/hi-res/VN00049SP.jpg?sw=1120"
+        },
+        {
+          "id": "9",
+          "title": "Adidas Stan Smith",
+          "description": "The Adidas Stan Smith is a minimalist tennis shoe recognized for its clean design and versatility.",
+          "price": 90.0,
+          "img": "https://www.adidas.com/us/images/shoes_937119_01_standard.jpg"
+        },
+        {
+          "id": "10",
+          "title": "Converse Chuck Taylor All Star",
+          "description": "The Converse Chuck Taylor All Star is a classic basketball shoe that has become a cultural icon.",
+          "price": 55.0,
+          "img": "https://www.converse.com/dw/image/v2/AAQS_PRD/on/demandware.static/-/Sites-master-catalog-Converse/default/dw55199a39/SHOES/Chuck-70-High-Top-Sneaker-M9697C.jpg?sw=1100"
+        }
+      ]
+    }
