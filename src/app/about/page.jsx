@@ -1,8 +1,7 @@
-import React from 'react'
-
+import style from './About.module.css'
 const AboutPage = () => {
   return (
-    <div>AboutPage</div>
+    <div className={style.heading}>AboutPage</div>
   )
 }
 
