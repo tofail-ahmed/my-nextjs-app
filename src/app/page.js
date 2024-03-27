@@ -7,7 +7,7 @@ const HomePage = () => {
   return (
     <div className="">
       <h1 className="text-center">Welcome to nextJS App: Home page</h1>
-      <Counter />
+      
     </div>
   );
 };
