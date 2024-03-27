@@ -1,9 +1,13 @@
-import { Inter } from "next/font/google";
+import { Roboto } from 'next/font/google'
 import "./globals.css";
 import Navbar from "@/component/shared/Navbar";
 import "daisyui/dist/full.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const roboto = Roboto({
+  weight: '400',
+  subsets: ['latin'],
+  display: 'swap',
+})
 
 export const metadata = {
   title: "Create Next App",
@@ -13,7 +17,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" data-theme="light">
-      <body className={inter.className}>
+      <body className={roboto.className}>
         <Navbar />
         {children}
       </body>
