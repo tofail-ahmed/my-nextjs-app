@@ -5,7 +5,9 @@ import Counter from "@/component/Counter";
 
 const HomePage =async () => {
   const res=await fetch("http://localhost:5000/shoes",{
-    cache:"force-cache"
+    next:{
+      revalidate:30
+    }
   });
   const shoes= await res.json();
   console.log(shoes)
