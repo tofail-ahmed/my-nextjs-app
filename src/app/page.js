@@ -1,5 +1,6 @@
 
 import Counter from "@/component/Counter";
+import Link from "next/link";
 // import 'daisyui/dist/full.css';
 
 
@@ -10,9 +11,9 @@ const HomePage =async () => {
     }
   });
   const shoes= await res.json();
-  console.log(shoes)
+  // console.log(shoes)
   return (
-    <div className="">
+    <div className="text-center">
       <h1 className="text-center">Welcome to nextJS App: Home page updated</h1>
       <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-2 mx-auto">
         {
@@ -34,6 +35,8 @@ const HomePage =async () => {
           )
         }
       </div>
+      <Link  href="/allshoes"> <button className="btn btn-outline btn-secondary my-4">See All</button></Link>
+
     </div>
   );
 };
