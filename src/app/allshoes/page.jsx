@@ -1,10 +1,12 @@
 
 
 const AllShoesPage = async () => {
+ 
   const res = await fetch("http://localhost:5000/shoes",{
       cache:"no-store"
   });
   const shoes = await res.json();
+  throw new Error("error from home page");
 //   console.log(shoes);
   return (
     <div>
